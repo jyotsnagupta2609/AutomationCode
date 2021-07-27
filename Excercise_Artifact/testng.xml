@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite" thread-count="2" parallel="tests" >
+ <test name="flipkart">
+	 <classes>
+	  	    <class name="TrialClasses.SnapDeal"/>
+	  	     <class name="TrialClasses.Flipkart"/>
+	 </classes>
+   </test>
+   
+ 	<!--  <test name="ChromeTest">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+		<class name="parallelTest.CrossBrowserScript"></class>
+		</classes>
+	</test>
+	<test name="FirefoxTest">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+		<class name="parallelTest.CrossBrowserScript">
+		</class>
+		</classes>
+	</test>
+	<test name="EdgeTest">
+		<parameter name="browser" value="Edge" />
+		<classes>
+		<class name="parallelTest.CrossBrowserScript">
+		</class>
+		</classes>
+	</test> -->
+ <!--  
+ <test name="Test">
+ <classes>
+      <class name="DisableAndEnableTests"/>
+    </classes>
+  </test>
+	 <parameter name="browser" value="chrome" />
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="IntializeBrowser.Annotation1" />
+			<methods>
+                    <include name="c" />
+            </methods>
+		</classes>
+	</test> 
+	 <test name="Practice Grouping">
+        <groups>
+      	   <run>
+      		  <include name="Car" />
+ 		   </run>
+ 		</groups>
+        <classes>
+            <class name="IntializeBrowser.AnnotationGroup" />
+        </classes>
+    </test> -->
+</suite> 
