@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-29T08:11:05.356Z",
+        "line": 3,
+        "name": "Successful login with valid credential",
+        "description": "",
+        "id": "loginpage;successful-login-with-valid-credential",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12247763500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user launch chrome browser",
+            "match": {
+              "location": "stepDefinitions.Steps.user_launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5493271200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user open URL \"http://51.140.8.102/AviBuyerWebDev/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"http://51.140.8.102/AviBuyerWebDev/\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_open_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2142744500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter email as \"Super.Admin@avibuyer.org\" and Password as \"A41BUY312##\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Super.Admin@avibuyer.org\"",
+                  "offset": 20
+                },
+                {
+                  "val": "\"A41BUY312##\"",
+                  "offset": 63
+                }
+              ],
+              "location": "stepDefinitions.Steps.user_enter_email_as_and_password_as(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11379972600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login",
+            "match": {
+              "location": "stepDefinitions.Steps.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1352281000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "page title should be \"Avibuyer - Home Page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Avibuyer - Home Page\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.Steps.page_title_should_be(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1135786500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close browser",
+            "match": {
+              "location": "stepDefinitions.Steps.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "loginPage",
+    "description": "",
+    "id": "loginpage",
+    "keyword": "Feature",
+    "uri": "file:features/loginPage.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="34.513">
+    <testcase classname="loginPage" name="Successful login with valid credential" time="34.002">
+        <system-out>
+            <![CDATA[Given user launch chrome browser............................................passed
+When user open URL "http://51.140.8.102/AviBuyerWebDev/"....................passed
+And user enter email as "Super.Admin@avibuyer.org" and Password as "A41BUY312##".passed
+And click on login..........................................................passed
+Then page title should be "Avibuyer - Home Page"............................passed
+And close browser...........................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
